@@ -1,0 +1,57 @@
+
+
+.content{
+	margin-top: 29px;
+	width: 1200px;
+	margin: 0 auto;
+	border: 2px solid #dd127b;
+}
+.content .payment{
+	width: 480px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.content .payment .finish{
+	overflow: hidden;
+}
+.content .payment .finish img{
+	margin-top: 20px;
+	float: left;
+}
+.content .payment .finish .achieve{
+	float: right;
+	margin-right: 145px;
+}
+.payment .finish .achieve h2{
+	font-size: 30px;
+	color: #dd127b;
+}
+.payment .finish .achieve p{
+	font-size: 18px;
+	color: #333333;
+	line-height: 30px;
+}
+.content .payment>p{
+	margin-top: 15px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .payment .service{
+	margin-top: 60px;
+	margin-bottom: 86px;
+}
+.content .payment .service a{
+	margin-left: 55px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .payment .service a:first-child{
+	margin-left: 55px;
+	font-size: 18px;
+	color: #dd127b;
+}
+.footer{
+	margin-top: 65px;
+}
+
+

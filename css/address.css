@@ -1,0 +1,223 @@
+
+.header .item .nav{
+	border-bottom:1px solid #1b1b1b;
+}
+.content{
+	width: 1200px;	
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.content .meess{
+	overflow: hidden;
+}
+	
+.content .numbers{
+	float: left;
+}	
+.content .numbers ul{
+	width: 288px;
+	margin-left: 13px;
+	border: 1px solid #aeaeae;
+}
+.content .numbers ul .current{
+	background: #e4007f;
+}
+.content .numbers ul .current a{
+	color: #ffffff;
+}
+.content .numbers ul li{
+	text-align: center;
+	line-height: 73px;
+	border-bottom:1px solid #bfbfbf;
+}
+.content .numbers ul li:hover{
+	background: #e4007f;
+}
+.content .numbers ul li>a:hover{
+	color: #fefcfc;
+}
+.content .numbers ul li:first-child{
+	font-size: 24px;
+	color: #333333;
+	background: #f6f6f6;
+	border-bottom: none;
+}
+.content .numbers ul li:last-child{
+	border-bottom: none;
+}
+ .content .numbers ul li a{
+ 	font-size: 18px;
+ 	color: #333333;
+ 	display: block;
+ }
+
+.content .numbers ul li:nth-child(6){
+	background: url(../img/address-1.png) 180px 24px no-repeat;
+}
+.content .numbers ul li:nth-child(6):hover{
+	background:#e4007f url(../img/address-1.png) 180px 24px no-repeat;
+}
+
+
+
+.content .meess .site{
+	width: 853px;
+	float: right;
+	margin-top: -7px;
+}
+.meess .site .manage h2{
+	font-size: 28px;
+	color: #333333;
+	line-height: 35px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #313131;
+}
+.meess .site .manage .bg{
+	width: 853px;
+	height: 51px;
+	margin-top: 40px;
+	background: #eeeeee;
+}
+.meess .site .manage dl{
+	overflow: hidden;
+}
+.meess .site .manage dl dt{
+	font-size: 18px;
+	color: #333333;
+	padding-left: 33px;
+	float: left;
+	margin-top: 33px;
+	background: url(../img/star.png)25px 5px no-repeat;
+}
+.meess .site .manage dl input{
+	width: 299px;
+	height: 29px;
+	margin-left: 15px;
+	border: 1px solid #aeaeae;
+}
+.meess .site .manage dl select{
+	width: 148px;
+	height: 29px;
+	float: left;
+	margin-left: 15px;	
+}
+.meess .site .manage dl dd{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.meess .site .manage a{
+	margin-top: 37px;
+	width: 214px;
+	font-size: 20px;
+	color: #222222;
+	line-height: 47px;
+	border: 1px solid #aeaeae;
+	text-align: center;
+	display: inline-block;
+}
+
+.meess .site .listing h2{
+	font-size: 28px;
+	color: #333333;
+	line-height: 35px;
+	margin-top: 53px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #313131;
+}
+
+.meess .site .listing ul{
+	margin-top: 40px;
+	width: 853px;
+}
+.meess .site .listing ul li{
+	margin-top: 20px;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+.meess .site .listing ul li span{
+	margin-left: 25px;
+	font-size:20px;
+	color: #222222;
+	padding-top: 18px;
+	display: inline-block;
+}
+.meess .site .listing ul li p{
+	margin-left: 25px;
+	font-size:20px;
+	color: #222222;
+	padding-top: 12px;
+	padding-bottom: 18px;
+}
+.meess .site .listing ul li div:last-child{
+	float: right;
+	margin-right: 25px;
+}
+.meess .site .listing ul li>div{
+	float: left;
+}
+
+.site .listing ul li div:last-child a:first-child{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	display: block;
+	font-size: 16px;
+	color: #666666;
+	background: url(../img/delete2.png) 78px 0px no-repeat;
+}
+	
+.site .listing ul li div:last-child a{
+	font-size: 20px;
+	color: #222222;
+	margin-left: 28px;
+}
+
+.site .listing ul li div:last-child .current{
+	background: url(../img/delete1.png)70px 18px no-repeat;
+}
+
+.page{
+	width: 1200px;
+	float: right;
+	margin-top:37px;
+}
+.page .current{
+	border: 1px solid white;
+}
+.page .current a{
+	color: #dd127b;
+}
+.page li:hover{
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+.page li:hover a{
+	color: #dd127b;
+}
+.page ul{
+	float: right;
+	margin-right: 38px;
+}
+.page ul li{
+	box-sizing: border-box;
+	float:left;
+	width: 41px;
+	border: 1px solid #b5b5b5;
+	margin-right: 24px;
+	text-align: center;
+	line-height: 38px;
+}
+.page ul li a{
+	display: block;
+	font-size:14px;
+	color: #333333;;
+}
+
+.page ul li:first-child{
+	width:62px;
+}
+
+.page ul .lo{
+	width:62px;
+}

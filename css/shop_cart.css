@@ -1,0 +1,374 @@
+.header .item {
+	border-bottom:1px solid #1b1b1b;
+}
+.content{
+	width: 1200px;	
+	margin: 0 auto;
+	margin-top: 45px;
+	overflow: hidden;
+}
+.content .shop{
+	overflow: hidden;
+	margin-top: 25px;
+}
+.content .shop h3{
+	font-size: 14px;
+	color: #333333;
+	float: left;
+}
+.content .shop span{
+	font-size: 14px;
+	color: #333333;
+	float: right;
+}
+.content .shop span select{
+	height: 25px;
+	margin-left: 10px;
+}
+.content .compile{
+	margin-top: 20px;
+	border: 1px solid #aeaeae;
+}
+.content .compile ul{
+	overflow: hidden;
+}
+.content .compile ul input{
+	width: 20px;
+	height: 20px;
+	margin-left: 22px;
+	margin-top: 16px;
+	border: 1px solid #aeaeae;
+	background: #ffffff;
+}
+.content .compile ul li>span{
+	font-size: 14px;
+	color: #333333;
+	margin-left: 12px;
+	margin-bottom: 16px;
+	position: relative;
+    top: -3px;
+}
+.content .compile ul li{
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	line-height: 48px;
+	margin-left: 22px;
+	
+}
+.content .compile ul li:nth-child(2){
+	width: 300px;
+    margin-left: 25px;
+    line-height: 55px;    
+}
+.content .compile ul li:nth-child(3){
+	margin-left: 90px;
+    line-height: 55px;	
+}
+.content .compile ul li:nth-child(4){
+	margin-left: 115px;
+    line-height: 55px;	
+}
+.content .compile ul li:nth-child(5){
+	margin-left: 100px;
+    line-height: 55px;	
+}
+.content .compile ul li:nth-child(6){
+	margin-left: 115px;
+	line-height: 55px;
+}
+
+.content .piece{
+	overflow: hidden;
+	margin-top: 16px;
+	line-height: 48px;
+	border: 1px solid #aeaeae;
+}
+.content .piece h3{
+	float: left;
+	font-size: 14px;
+	color: #dd127b;
+	margin-left: 22px;
+	padding-right: 15px;
+}
+.content .piece a{
+	display: block;
+	font-size: 14px;
+	color: #333333;
+	margin-left: 23px;
+}
+.content .cart{
+	overflow: hidden;
+	margin-top: 40px;
+	border: 1px solid #aeaeae;
+}
+.content .cart>h3{
+	float: left;
+	font-size: 14px;
+	color: #333333;
+	margin-left: 22px;
+	margin-top: 25px;
+	padding-right: 15px;
+}
+.content .cart>a{
+	display: block;
+	font-size: 14px;
+	color: #dd127b;
+	margin-left: 4px;
+	margin-top: 25px;
+}
+.content .cart ul li{
+	margin-top: 18px;
+	overflow: hidden;
+}
+.content .cart ul li input:first-child{
+	float: left;
+	margin: 20px 26px 25px 21px;
+	width: 20px;
+	height: 19px;
+	border: 1px solid #aeaeae;
+	background: #ffffff;
+}
+.content .cart ul li>div{
+	float: left;
+}
+.cart ul li .res{
+	overflow: hidden;
+}
+.cart ul li .res img{
+	float: left;
+	margin-bottom: 24px;
+	border: 1px solid #aeaeae;
+}
+.cart ul li .res .get{
+	width: 300px;
+	float: right;
+    margin-left: 5px;
+    margin-right: 95px;
+    margin-top: -4px;
+}
+.cart ul li .res .get a>p{
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 3px;
+}
+.cart ul li .res .get>p{
+	font-size: 12px;
+	color: #666666;
+	margin-top: 2px;
+	padding-left: 20px;
+	background: url(../img/buy-2.png)1px 3px no-repeat;
+}
+.cart ul li .res .get>p+p{
+	background: url(../img/buy-3.png)1px 3px no-repeat;
+}
+.cart ul li .quotation{
+}
+.cart ul li .quotation p{
+	font-size: 14px;
+	color: #333333;
+}
+.cart ul li .quotation p+p{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: line-through;
+}
+.cart ul li .sum{
+	margin-left: 105px;
+}
+.cart ul li .sum button{
+	width: 20px;
+	height: 19px;
+	border: 1px solid #aeaeae;
+	background: #ffffff;
+	margin-left: -5px;
+}
+
+.cart ul li .sum input{
+	width: 38px;
+	height: 17px;
+	text-align: center;
+	margin-left: -5px;
+	border-top: 1px solid #aeaeae;
+	border-bottom: 1px solid #aeaeae;
+}
+.cart ul li .quantum{
+	font-size: 18px;
+	color: #666666;
+    margin-left: 95px;
+    width: 170px;
+}
+.cart ul li .del{
+	margin-left: 15px;
+}
+.cart ul li .del p{
+	font-size: 14px;
+	color: #666666;
+	padding-bottom: 23px;
+	width: 30px;
+	cursor: pointer;
+}
+.cart ul li .del a{
+	font-size: 14px;
+	color: #666666;
+}
+.content .accounts{
+	margin-top: 40px;
+	background: #eeeeee;
+}
+
+.content .accounts{
+	overflow: hidden;
+}
+.accounts .pocket{
+	float: left;
+}
+.accounts .pocket input{
+	width: 20px;
+	height: 19px;
+	border: 1px solid #aeaeae;
+	margin: 23px 12px 22px 22px;
+}
+.accounts .pocket span:nth-child(2){
+	font-size: 14px;
+    color: #333333;
+    margin-left: 12px;
+    margin-bottom: 16px;
+    position: relative;
+    top: -3px;
+}
+
+.accounts .pocket span:nth-child(3){
+	font-size: 14px;
+	color: #666666;
+	margin-left: 45px;
+	position: relative;
+    top: -3px;
+}
+.content .accounts .expense h3{
+ 	font-size: 14px;
+ 	color: #333333;
+ 	margin-left: 20px;
+ 	display:inline;
+ }
+.accounts .expense .favourable h3 span{
+	font-size: 18px;
+	color: #dd127b;
+}
+.accounts .expense .favourable>span{
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+}
+
+.content .accounts .expense{
+	float: right;
+}
+.content .accounts .expense div{
+	margin-top: 10px;
+	float: left;
+	width: 321px;
+	text-align: right;
+}
+.content .flip{
+	margin-top: 20px;
+}
+.content .accounts a{
+	display: inline-block;
+	width: 160px;
+	font-size: 24px;
+	color: #fffcfe;
+	background: #dd127b;
+	line-height: 65px;
+	text-align: center;
+	margin-left: 45px;
+}
+
+
+.content .flip p{
+	display: inline-block;
+}
+.content .flip{
+	float: right;
+	margin-top: 20px;
+	position: relative;
+	width: 60px;
+	margin-right: 48px;
+}
+.content .flip>span{
+	position: absolute;
+	left: 0;
+	top:0;
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	background: url(../img/shop-7.png) 0px 3px no-repeat;
+}
+.content .flip>span:last-child{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 60px;
+	height: 20px;
+	display: inline-block;
+	background: url(../img/shop-8.png) 49px 3px no-repeat;
+}
+.content .flip .one{
+	margin-left: 18px;
+}
+
+
+
+
+
+
+
+.content .recommend{
+	margin-top: 70px;
+}
+.content .recommend h2{
+	font-size: 24px;
+	color: #333333;
+	line-height: 36px;
+	border-bottom: 1px solid #1b1b1b;
+}
+.content .recommend ul{
+	overflow: hidden;
+	margin-top: 43px;
+}
+.content .recommend ul li{
+	width: 277px;
+	float: left;
+	border: 1px solid #aeaeae;
+	margin-left: 30px;
+	box-sizing: border-box;
+}
+.content .recommend ul li:first-child{
+	margin-left: 0;
+}
+.content .recommend ul li p a{
+	font-size: 14px;
+	color: #333333;
+}
+.content .recommend ul li p a:hover{
+	color: #dd127b;
+	text-decoration: underline;
+}
+.content .recommend ul li p{
+	width: 230px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.content .recommend ul li p+p{
+	font-size: 24px;
+	color: #dd127b;
+	background: url(../img/evde-9.png)56px 7px no-repeat;
+}
+.content .recommend ul li p+p>span{
+	font-size: 12px;
+	color: #999999;
+	margin-left: 50px;
+	text-decoration: line-through;
+}
+
+

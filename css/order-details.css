@@ -1,0 +1,299 @@
+.header .item {
+	border-bottom:1px solid #1b1b1b;
+}
+.content{
+	width: 1200px;	
+	margin: 0 auto;
+}
+.content .form{
+	width: 300px;
+	overflow: hidden;
+	margin-top: 35px;
+	padding-left: 30px;
+}
+.content .form a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+.content .form h3{
+	float:right;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+.content .personal{
+	margin-top: 20px;
+	border: 1px solid #aeaeae;
+	border-top: none;
+}
+.content .management {
+	background: #eeeeee;
+}
+.content .management h2{
+	font-size: 18px;
+	color: #333333;
+	line-height: 50px;
+	margin-left: 30px;
+}
+.content .personal .flow{
+	overflow: hidden;
+	padding-top: 100px;
+	padding-left: 5px;
+	margin-bottom: 48px;
+	background: url(../img/orde-de-1.png)60px 50px no-repeat;
+}
+.content .personal .flow li{
+	float: left;
+	width: 140px;
+	text-align: center;
+}
+.personal .flow li p{
+	font-size: 14px;
+	color: #333333;
+}
+.personal .flow li p:first-child{
+	margin-bottom:14px ;
+}
+.content .bought{
+	overflow: hidden;
+	margin-top: 40px;
+	height: 318px;
+	border: 1px solid #aeaeae;
+}
+.content .bought .own{
+	float: left;
+	margin-top: 15px;
+	margin-left: 40px;
+	height: 285px;
+	border-right: 1px solid #bfbfbf;
+}
+.content .bought .own img{
+	float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    border: 1px solid #aeaeae;
+}  
+.bought .own .get{
+	float: right;
+	margin-top: 45px;
+	margin-left: 5px;
+	margin-right: 95px;
+}
+.bought .own .get a>p{
+	width: 160px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
+.bought .own .get a>p:hover{
+	text-decoration: underline;
+	color: #e4007f;
+}
+.bought .own .get>p{
+	font-size: 14px;
+    color: #666666;
+    margin-top: 12px;
+    padding-left: 10px;
+    padding-left: 20px;
+    background: url(../img/buy-2.png)1px 3px no-repeat;
+}
+
+.bought .own .get>p+p{
+	background: url(../img/buy-3.png)1px 3px no-repeat;
+}
+
+.content .bought .logistics{
+	float: left;
+    width: 550px;
+    height: 245px;
+    margin-top: 35px;
+    overflow: auto;
+    margin-left: 50px;
+}
+.bought .logistics ul{
+	margin-left: 10px;
+	background: url(../img/or-de5.png)55px 0px no-repeat;
+	height: 400px;
+}
+.bought .logistics .time{
+	float: left;
+}
+.bought .logistics .time p{
+	margin-left: 8px;
+}
+.bought .logistics ul li span{ 
+	font-size: 14px;
+	color: #666666;
+}
+.bought .logistics ul li p{ 
+	font-size: 12px;
+	color: #666666;
+}
+.bought .logistics .transport{
+	float: right;
+	width: 312px;
+}
+.bought .logistics .transport p{
+	margin-left: -5px;
+}
+.content .bought .logistics li{
+	width: 410px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.bought .logistics ul li:first-child .time>span{
+	margin-left: 10px;
+}
+
+.bought .logistics ul li:last-child .transport>p{
+	margin-left: 0px;
+}
+.content .logistics .current span,.content .logistics .current p{
+	color: #e4007f;
+}
+
+.content .pay{
+	overflow: hidden;
+	margin-top: 40px;
+	height: 298px;
+	border: 1px solid #aeaeae;
+}
+.content .pay  dl{
+	float: left;
+	width: 245px;
+	margin-left: 95px;
+}
+.content .pay  dl+dl{
+	margin-left: 185px;
+}
+.content .pay  dl+dl+dl{
+	margin-left: 175px;
+}
+.content .pay  dl dt{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .pay  dl dd{
+	font-size: 18px;
+	color: #666666;
+	padding-bottom: 10px;
+	display: inline-flex;
+}
+.content .pay  dl dd>span{
+	display: inline-block;
+    width: 151px;
+}
+.content .mittere{
+	overflow: hidden;
+	margin-top: 40px;
+	border: 1px solid #aeaeae;
+}
+.content .mittere>div{
+	float: left;
+}
+.content .mittere>div>h3{
+	margin-top: 32px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .mittere .article{
+	margin-left: 42px;
+}
+.content .mittere .article .get{
+	float: right;
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-right: 95px;
+}
+.content .mittere .article img{
+	float: left;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 1px solid #aeaeae;
+}
+.content .mittere .article h3{
+	margin-left: 110px
+}
+.mittere .article .get a>p{
+	width: 160px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+}
+.mittere .article .get a>p:hover{
+	text-decoration: underline;
+	color: #e4007f;
+}
+.mittere .article .get >p{
+	font-size: 14px;
+    color: #666666;
+    margin-top: 12px;
+    padding-left: 20px;
+    background: url(../img/buy-2.png)1px 3px no-repeat;
+}
+.mittere .article .get>p+p {
+    background: url(../img/buy-3.png)1px 3px no-repeat;
+}   
+.mittere .identifier p{
+	font-size: 14px;
+	color: #333333;
+}
+.content .mittere .univalent{
+	margin-left: 125px;
+}
+
+.content .mittere .amount{
+	margin-left: 120px;
+}
+.content .mittere .operate{
+	margin-left: 110px;
+}
+.content .mittere .operate a{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #333333;
+}
+.content .mittere .operate p:nth-child(4){
+	margin-top: 60px;
+	font-size: 14px;
+	color: #333333;
+}
+.content .mittere .operate p:nth-child(5){
+	margin-top: 15px;
+	font-size: 14px;
+	color: #333333;
+}
+   
+.content .mittere .operate span{
+	display: block;
+	margin-top: 10px;
+	color: #d5277c;
+}
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   
+   
+   
+   
+    

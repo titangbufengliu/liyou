@@ -1,0 +1,150 @@
+
+.header .item {
+	overflow: hidden;
+}
+.header .item a img:{
+	float: left;
+}
+.header .item p{
+	float: right;
+	display: block;
+	margin-top: 65px;
+	margin-right: 80px;
+	font-size: 24px;
+	color: #666666;
+}
+.header .item p>a{
+	font-size: 24px;
+	color: #dd127b;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 15px;
+	background: #f6f6f6;
+}
+.content .main{
+	width: 521px;
+	margin: 0 auto;
+}
+.content .main h2{
+	display: inline-block;
+	width: 300px;
+	line-height: 70px;
+	font-size: 36px;
+	color: #ffffff;
+	background: #dd127b;
+	text-align: center;
+	margin: 68px 190px 38px 28px;
+	
+}
+.content .main>a{
+	display: block;
+	line-height: 70px;
+	font-size: 24px;
+	color: #ffffff;
+	background: #dd127b;
+	text-align: center;
+}
+
+.content .main ul li h3{
+	display: inline-block;
+	font-size: 24px;
+	color: #333333;
+	text-align: right;
+	width: 145px;
+}
+.content .main ul li{
+	margin-bottom: 55PX;
+	position: relative;
+}
+.content .main ul li input{
+	width: 353px;
+	height: 53px;
+	border: 1px solid #d9d9d9;
+	font-size: 18px;
+	color: #999999;
+	padding-left: 15px;
+	background: #f3f3f3;
+}
+
+.content .main ul li:nth-child(4) input{
+	width: 168px;
+}
+.content .main ul li>img{
+	margin-left: 40px;
+	margin-bottom: -18px;
+}
+.content .main ul li>a{
+    display: inline-block; 
+	width: 160px;
+	line-height: 50px;
+	color: #ffffff;
+	background: #dd127b;
+	text-align: center;
+	margin-left: 12px;
+    margin-top: -2px;
+}
+.content .main ul li:nth-child(6) input{
+	width: 175px;
+}
+
+.content .main .clause{
+	padding-right: 20px;
+	width: 365px;
+	margin-top: 15px;
+	margin-left: 140px;
+	overflow: hidden;
+	position: relative;
+}
+
+.main .clause p>span{
+	float: left;
+	width: 20px;
+	height: 19px;
+	border: 1px solid #b6b6b6;
+	background: #ffffff;
+	margin-right: 2px;
+} 
+.main .clause>span{
+	float: left;
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+
+.content>img{
+	margin-top: 60px;
+	margin-left: 3px;
+}
+.footer{
+	margin-top: 100px;
+}
+.dui{
+	display: none;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+
+
+.codes{
+	float: right;
+	position:relative ;
+	top:7px;
+}
+.codes canvas{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+
+
+
+
+
+
+

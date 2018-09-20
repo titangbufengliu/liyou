@@ -1,0 +1,64 @@
+
+
+
+.content{
+	margin-top: 29px;
+	width: 1200px;
+	margin: 0 auto;
+	border: 2px solid #dd127b;
+}
+.content .fail{
+	margin-left: 380px;
+	width: 535px;
+}
+.content .fail .reason{
+	overflow: hidden;
+	margin-top: 58px;
+}
+.fail .reason img{
+	float: left;
+	margin-top: 30px;
+}
+.fail .reason .deal{
+	float: right;
+	padding-right: 20px;
+}
+.fail .reason .deal h2{
+	font-size: 30px;
+	color: #dd127b;
+}
+.fail .reason .deal>span{
+	font-size: 18px;
+	color: #dd127b;
+	display: block;
+	margin-top: 27px;
+}
+.fail .reason .deal p{
+	font-size: 18px;
+	color: #333333;
+}
+.fail .reason .deal p>span{
+	font-size: 18px;
+	color: #dd127b;
+}
+.fail .reason .deal a{
+	font-size: 18px;
+	color: #dd127b;
+}
+.content .fail .service{
+	margin-top: 60px;
+	margin-bottom: 86px;
+}
+.content .fail .service a{
+	margin-left: 55px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .fail .service a:first-child{
+	margin-left: 55px;
+	font-size: 18px;
+	color: #dd127b;
+}
+.footer{
+	margin-top: 65px;
+}

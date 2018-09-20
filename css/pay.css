@@ -1,0 +1,192 @@
+.header .item .nav{
+	border-bottom:1px solid #1b1b1b;
+}
+.content{
+	width: 1200px;	
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.content .schedule{
+	margin-top: 34px;
+    width: 345px;
+    margin: 0 auto;
+}	
+.content .schedule img{
+	margin-left: 20px;
+}
+.content .schedule span+span{
+	margin-left: 47px;
+}
+
+.content .order{
+	margin-top: 30px;
+	border: 1px solid #aeaeae;
+	border-top: none;
+}
+.content .order .bg{
+	background: #eeeeee;
+}
+.content .order h2{
+	font-size: 18px;
+	color: #dd127b;
+	line-height: 50px;
+	margin-left: 30px;
+}
+.content .order p{
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 18px;
+	color: #333333;
+}
+.content .order p>span{
+	font-size: 18px;
+	color: #dd127b;
+}
+.content .order p+p{
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+.content .payoff{
+	margin-top: 47px;
+	border: 1px solid #aeaeae;
+	border-top: none;
+}
+.content .payoff .bg{
+	background: #eeeeee;
+}
+.content .payoff h2{
+	font-size: 18px;
+	color: #333333;
+	line-height: 50px;
+	margin-left: 30px;
+}
+.content .payoff .cyber{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 620px;
+}
+.content .payoff .cyber h3{
+	line-height: 35px;
+	font-size: 14px;
+	color: #333333;
+}
+.content .payoff .cyber ul{
+	overflow: hidden;
+}
+.content .payoff .cyber ul li{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #aeaeae;
+}
+.content .payoff .stage{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+.content .payoff .stage ul{
+	margin-top: 10px;
+	margin-bottom: 35px;
+	overflow: hidden;
+}
+.content .payoff .stage ul li{
+	float: left;
+	width: 135px;
+	margin-right: 10px;
+	border: 1px solid #aeaeae;
+}
+.content .choose{
+	margin-top: 30px;
+	border: 1px solid #aeaeae;
+}
+.content .choose .choice{
+	border-bottom: 1px solid #aeaeae;
+}
+.content .choose .choice h2{
+	font-size: 14px;
+	color: #333333;
+	margin-top: 18px;
+	margin-left: 30px;
+}
+.choose .choice .cost{
+	width: 470px;
+	margin-left: 30px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 18px;
+}
+.choose .choice .cost a{
+	float: left;
+	border: 1px solid #9b9b9b;
+}
+.choose .choice .cost p{
+    display: inline-block;
+    margin-top: 12px;
+}
+    
+.choice .cost p:nth-child(2)>span{
+    margin-top: 10px;	
+}
+.choose .choice .cost>span{
+	 margin-left: 42px; 
+}
+.choose .choice .cost p+p{
+	float: right;
+	font-size: 14px;
+	color: #333333;
+}
+.choose .choice .cost p+p>span{
+	font-size: 14px;
+	color: #dd127b;
+}
+
+.content .choose .safety p:first-child{
+	padding-top: 15px;
+	padding-left: 60px;
+	font-size: 14px;
+	color: #333333;
+	background: url(../img/pay-14.png)30px 14px no-repeat;
+}
+.content .choose .safety>span{
+	margin-top: 18px;
+	color: #333333;
+	margin-left: 30px;
+	display: block;
+}
+.content .choose .safety ul{
+	margin-left: 28px;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.content .choose .safety ul li{
+	width: 23px;
+	height: 24px;
+	border: 1px solid #aeaeae;
+	float: left;
+	margin-left: 2px;
+}
+.choose .safety p:last-child{
+	font-size: 14px;
+	color: #333333;
+	margin-left: 30px;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+.choose .safety p:last-child>span{
+	font-size: 14px;
+	color: #dd127b;
+}
+
+.content>a{
+	display: block;
+	width: 250px;
+	line-height: 60px;
+	margin-top: 25px;
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	background: #dd127b;
+}
+
+
+
+

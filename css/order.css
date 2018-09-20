@@ -1,0 +1,352 @@
+
+
+.header .item {
+	border-bottom:1px solid #1b1b1b;
+}
+.content{
+	width: 1200px;	
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.content .mess{
+	overflow: hidden;
+}
+.content .left{
+	float: left;
+}
+.content .numbers ul{
+	width: 288px;
+	margin-left: 13px;
+	border: 1px solid #aeaeae;
+}
+.content .numbers ul .current{
+	background: #e4007f;
+}
+.content .numbers ul .current a{
+	color: #ffffff;
+}
+.content .numbers ul li{
+	text-align: center;
+	line-height: 73px;
+	border-bottom:1px solid #bfbfbf;
+}
+.content .numbers ul li:hover{
+	background: #e4007f;
+}
+.content .numbers ul li>a:hover{
+	color: #fefcfc;
+}
+.content .numbers ul li:first-child{
+	font-size: 24px;
+	color: #333333;
+	background: #f6f6f6;
+	border-bottom: none;
+}
+.content .numbers ul li:last-child{
+	border-bottom: none;
+}
+ .content .numbers ul li a{
+ 	font-size: 18px;
+ 	color: #333333;
+ 	display: block;
+ }
+
+.content .numbers ul li:nth-child(6){
+	background: url(../img/address-1.png) 180px 24px no-repeat;
+}
+.content .numbers ul li:nth-child(6):hover{
+	background:#e4007f url(../img/address-1.png) 180px 24px no-repeat;
+}
+
+
+.content  h3{
+	font-size: 18px;
+	color: #333333;
+	margin-left: 120px;
+	margin-top: 57px;
+	margin-bottom: 10px;
+}
+.content .substance{
+	float: left;
+	width: 288px;
+	margin-left: 13px;
+	border: 1px solid #aeaeae;
+}
+.substance ul li p:nth-child(2){
+	font-size: 14px;
+	color: #333333;
+	padding: 0 20px
+}
+
+.substance ul li p:nth-child(3){
+	font-size: 24px;
+    color: #dd127b;
+    margin-top: 20px;
+    margin-left: 78px;
+    background: url(../img/evde-9.png)56px 7px no-repeat;
+}
+.substance ul li p:nth-child(3)>span{
+	font-size: 12px;
+	color: #999999;
+	margin-left: 60px;
+	text-decoration: line-through;
+}
+.content .substance a{
+	font-size: 14px;
+	color: #333333;
+	display:block;
+	text-align: center;
+	margin: 55px 0 35px 0;
+}
+.content .mess .appraise{
+	float: right;
+	width: 870px;
+}
+
+.mess .appraise .guider{
+	overflow: hidden;
+	width: 870px;
+	background: #eeeeee;
+
+}
+.mess .appraise .guider li a{
+	float: left;
+	line-height: 70px;
+	font-size: 18px;
+	color: #333333;
+	width: 85px;
+	margin-left: 27px;
+}
+.mess .appraise .guider li a:hover{
+	color: #dd127b;
+}
+.mess .appraise .deliver{
+	overflow: hidden;
+	margin-top: 36px;
+	width: 869px;
+	border-bottom: 1px solid #a0a0a0;
+}
+.mess .appraise .deliver li{
+	float: left;
+	font-size: 18px;
+	color: #333333;
+	line-height: 45px;
+	width: 85px;
+	margin-left: 29px;
+}
+.appraise .deliver li:first-child{
+	width: 390px;
+}
+.appraise .deliver li+li+li{
+	padding-left: 30px;
+}
+.appraise .deliver li:last-child{
+	padding-left: 70px;
+}
+.mess .appraise>div{
+	font-size: 18px;
+	color: #333333;
+	margin-top: 15px;
+	margin-left: 30px;
+	line-height: 40px;
+}
+.mess .appraise .lists li{
+	width: 868px;
+	height: 260px;
+	border: 1px solid #aeaeae;
+	margin-top: 34px;
+}
+.appraise .lists .headline{
+	background: #eeeeee;
+}
+.appraise .lists .headline span{
+	font-size: 18px;
+	color: #333333;
+	line-height: 50px;
+	margin-left: 30px;
+}
+.appraise .lists .headline span+span{
+	margin-left: 110px;
+}
+
+.appraise .lists .next img{
+	float: left;
+	margin-top: 45px;
+	margin-left: 26px;
+	border: 1px solid #aeaeae;
+}
+.appraise .lists .next{
+	overflow: hidden;
+}
+.appraise .lists .next>div{
+	float: left;
+}
+.lists .next .get{
+	margin-top: 45px;
+	margin-left: 20px;
+}
+.lists .next .get a>p{
+	width: 230px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 25px;
+}
+.lists .next .get a>p:hover{
+	text-decoration: underline;
+	color: #dd127b;
+}
+.lists .next .get>p{
+	font-size: 14px;
+	color: #666666;
+	margin-top: 12px;
+	padding-left: 10px;
+	padding-left: 20px;
+	background: url(../img/buy-2.png)1px 3px no-repeat;
+}
+.lists .next .get>p+p{
+	background: url(../img/buy-3.png)1px 3px no-repeat;
+}
+.appraise .lists .next .price{
+	margin-top: 45px;
+	margin-left: 45px;
+	font-size: 18px;
+	color: #dd127b;
+}
+.appraise .lists .next .check{
+	margin-top: 45px;
+	margin-left: 80px;
+}
+.lists .next .check>a{
+	display: block;
+	width: 130px;
+	line-height: 35px;
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.lists .next .check>a+a{
+	margin-top: 20px;
+}
+
+.appraise .lists .next .confirm{
+	margin-top: 45px;
+	margin-left: 20px;
+}
+.lists .next .confirm>a{
+	display: block;
+	width: 130px;
+	line-height: 35px;
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+}
+.lists .next .confirm a:first-child {
+	background: #dd127b;
+	color: #f6e8eb;
+}
+.appraise .lists .child{
+	font-size: 18px;
+	color: #333333;
+	line-height: 30px;
+	margin-top: 75px;
+	margin-left: 26px;
+}
+
+
+
+
+
+.page{
+	width: 917px;
+	float: right;
+	margin-top: 55px;
+}
+.page .current{
+	border: 1px solid white;
+}
+.page .current a{
+	color: #dd127b;
+}
+.page li:hover{
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+.page li:hover a{
+	color: #dd127b;
+}
+.page ul{
+	float: right;
+	margin-right: 38px;
+}
+.page ul li{
+	box-sizing: border-box;
+	float:left;
+	width: 41px;
+	border: 1px solid #b5b5b5;
+	margin-right: 24px;
+	text-align: center;
+	line-height: 38px;
+}
+.page ul li a{
+	display: block;
+	font-size:14px;
+	color: #333333;;
+}
+.page ul li:first-child{
+	width:62px;
+}
+.page ul .lo{
+	width:62px;
+}
+
+
+
+.content .recommend{
+	margin-top: 70px;
+}
+.content .recommend h2{
+	font-size: 24px;
+	color: #333333;
+	line-height: 36px;
+	border-bottom: 1px solid #1b1b1b;
+}
+.content .recommend ul{
+	overflow: hidden;
+	margin-top: 43px;
+}
+.content .recommend ul li{
+	width: 277px;
+	float: left;
+	border: 1px solid #aeaeae;
+	margin-left: 30px;
+	box-sizing: border-box;
+}
+.content .recommend ul li:first-child{
+	margin-left: 0;
+}
+.content .recommend ul li p a{
+	font-size: 14px;
+	color: #333333;
+}
+.content .recommend ul li p a:hover{
+	color: #dd127b;
+	text-decoration: underline;
+}
+.content .recommend ul li p{
+	width: 230px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+.content .recommend ul li p+p{
+	font-size: 24px;
+	color: #dd127b;
+	background: url(../img/evde-9.png)56px 7px no-repeat;
+}
+.content .recommend ul li p+p>span{
+	font-size: 12px;
+	color: #999999;
+	margin-left: 50px;
+	text-decoration: line-through;
+}
+
+
